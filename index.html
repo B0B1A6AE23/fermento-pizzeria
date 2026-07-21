@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>FERMENTO — Pizzería napolitana de masa madre</title>
+<meta name="description" content="FERMENTO, pizzería napolitana. Masa madre viva, 48 horas de fermentación, horno a leña a 485 grados. Solo 80 masas por noche.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231C1714'/%3E%3Ccircle cx='16' cy='16' r='10' fill='none' stroke='%23C89B6B' stroke-width='2'/%3E%3Ccircle cx='13' cy='14' r='1.6' fill='%23C2321F'/%3E%3Ccircle cx='19' cy='17' r='1.6' fill='%23C2321F'/%3E%3Ccircle cx='15' cy='20' r='1.6' fill='%233E5B3A'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://images.pexels.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Archivo:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body data-barba="wrapper">
+
+<header id="nav">
+  <a class="logo" href="index.html">FERMENTO<i>.</i></a>
+  <nav class="enlaces" aria-label="Navegación">
+    <a href="index.html" data-ns="casa" class="activa">La casa</a>
+    <a href="masa.html" data-ns="masa">La masa</a>
+    <a href="menu.html" data-ns="menu">El menú</a>
+  </nav>
+</header>
+
+<div id="telon" aria-hidden="true">
+  <svg id="telon-sello" viewBox="0 0 120 120">
+    <circle cx="60" cy="60" r="55" fill="none" stroke="#1C1714" stroke-width="2"/>
+    <circle cx="60" cy="60" r="45" fill="none" stroke="#1C1714" stroke-width="1"/>
+    <text x="60" y="74" text-anchor="middle" font-family="Instrument Serif, serif" font-style="italic" font-size="42" fill="#C2321F">F</text>
+    <circle cx="60" cy="18" r="2.4" fill="#C2321F"/>
+    <circle cx="60" cy="102" r="2.4" fill="#C2321F"/>
+  </svg>
+</div>
+
+<div id="smooth-wrapper">
+  <div id="smooth-content">
+
+    <main data-barba="container" data-barba-namespace="casa"
+          data-titulo="FERMENTO — Pizzería napolitana de masa madre">
+
+      <!-- HERO -->
+      <section class="hero seccion" aria-label="Fermento">
+        <div class="hero-split">
+          <div>
+            <span class="etiqueta" data-reveal>PIZZERÍA NAPOLITANA · MASA MADRE</span>
+            <h1 data-reveal>La masa lleva <em>tres días</em> trabajando cuando tú llegas.</h1>
+            <p class="cuerpo" data-reveal>Harina 00, agua, sal y tiempo. Lo demás es ruido. Ochenta masas por noche, ni una más.</p>
+            <a class="cta" href="menu.html" data-reveal>VER EL MENÚ</a>
+          </div>
+          <div class="marco" data-reveal>
+            <img src="https://images.pexels.com/photos/35819044/pexels-photo-35819044.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                 data-speed="auto" alt="Margherita sobre plato blanco en fondo oscuro" fetchpriority="high" referrerpolicy="no-referrer">
+          </div>
+        </div>
+      </section>
+
+      <!-- CREDENCIALES -->
+      <section class="seccion" aria-label="Credenciales de la masa">
+        <div class="credenciales">
+          <div class="credencial" data-reveal><div class="cifra">48<i>h</i></div><div class="que">Fermentación</div></div>
+          <div class="credencial" data-reveal><div class="cifra">485<i>°</i></div><div class="que">Horno a leña</div></div>
+          <div class="credencial" data-reveal><div class="cifra">90<i>s</i></div><div class="que">De cocción</div></div>
+          <div class="credencial" data-reveal><div class="cifra">62<i>%</i></div><div class="que">Hidratación</div></div>
+        </div>
+      </section>
+
+      <!-- BANDA VIDEO HORNO -->
+      <section class="banda-video" aria-label="El horno">
+        <video autoplay muted loop playsinline preload="metadata" src="horno.mp4"></video>
+        <blockquote data-reveal>«El horno está a 485 grados. Nosotros, tranquilos.»</blockquote>
+        <span class="etiqueta" data-reveal>LEÑA DE ENCINO · BÓVEDA NAPOLITANA</span>
+      </section>
+
+      <!-- FILOSOFÍA -->
+      <section class="seccion" aria-label="Filosofía">
+        <div class="dos-col">
+          <div class="marco" data-reveal>
+            <img src="https://images.pexels.com/photos/34869959/pexels-photo-34869959.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                 data-speed="auto" alt="Tomates San Marzano en rama sobre negro" loading="lazy" referrerpolicy="no-referrer">
+          </div>
+          <div>
+            <span class="etiqueta" data-reveal>LO QUE ENTRA A LA CASA</span>
+            <h2 data-reveal>San Marzano DOP, fior di latte, <em>y poco más</em></h2>
+            <p class="cuerpo" data-reveal>Masa madre viva desde el primer día. No sabemos hacerla de otra forma. Cada ingrediente tiene nombre, origen y una razón para estar.</p>
+            <a class="cta" href="masa.html" data-reveal>CONOCER LA MASA</a>
+          </div>
+        </div>
+      </section>
+
+      <footer id="pie">
+        <p class="datos">
+          MAR – DOM · 18:00 – 23:00 · SOLO 80 MASAS POR NOCHE<br>
+          CALLE DEL HORNO 48 · COLONIA AMERICANA · GDL · RESERVAS 33 4848 0090
+        </p>
+        <p class="cred">FERMENTO · FOTOGRAFÍA Y VIDEO CORTESÍA DE PEXELS</p>
+      </footer>
+
+    </main>
+
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/ScrollSmoother.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@barba/core@2.10.3/dist/barba.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@barba/prefetch@2.2.0/dist/barba-prefetch.umd.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

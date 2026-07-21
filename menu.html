@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>El menú — FERMENTO</title>
+<meta name="description" content="El menú corto de FERMENTO: margherita, marinara, la de la casa y la del día. Solo 80 masas por noche.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231C1714'/%3E%3Ccircle cx='16' cy='16' r='10' fill='none' stroke='%23C89B6B' stroke-width='2'/%3E%3Ccircle cx='13' cy='14' r='1.6' fill='%23C2321F'/%3E%3Ccircle cx='19' cy='17' r='1.6' fill='%23C2321F'/%3E%3Ccircle cx='15' cy='20' r='1.6' fill='%233E5B3A'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://images.pexels.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Archivo:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body data-barba="wrapper">
+
+<header id="nav">
+  <a class="logo" href="index.html">FERMENTO<i>.</i></a>
+  <nav class="enlaces" aria-label="Navegación">
+    <a href="index.html" data-ns="casa">La casa</a>
+    <a href="masa.html" data-ns="masa">La masa</a>
+    <a href="menu.html" data-ns="menu" class="activa">El menú</a>
+  </nav>
+</header>
+
+<div id="telon" aria-hidden="true">
+  <svg id="telon-sello" viewBox="0 0 120 120">
+    <circle cx="60" cy="60" r="55" fill="none" stroke="#1C1714" stroke-width="2"/>
+    <circle cx="60" cy="60" r="45" fill="none" stroke="#1C1714" stroke-width="1"/>
+    <text x="60" y="74" text-anchor="middle" font-family="Instrument Serif, serif" font-style="italic" font-size="42" fill="#C2321F">F</text>
+    <circle cx="60" cy="18" r="2.4" fill="#C2321F"/>
+    <circle cx="60" cy="102" r="2.4" fill="#C2321F"/>
+  </svg>
+</div>
+
+<div id="smooth-wrapper">
+  <div id="smooth-content">
+
+    <main data-barba="container" data-barba-namespace="menu"
+          data-titulo="El menú — FERMENTO">
+
+      <!-- CABECERA DEL MENÚ -->
+      <section class="hero seccion" aria-label="El menú" style="min-height:70svh">
+        <div style="text-align:center;max-width:800px;margin:0 auto">
+          <span class="etiqueta" data-reveal>LA PIZARRA · CORTA A PROPÓSITO</span>
+          <h1 data-reveal>Cuatro pizzas. <em>Ochenta masas.</em> Una noche.</h1>
+          <p class="cuerpo" data-reveal style="margin-inline:auto">48 horas de fermentación. 90 segundos de horno. Toda una vida aprendiendo el orden.</p>
+        </div>
+      </section>
+
+      <!-- PIZARRA -->
+      <section class="seccion" aria-label="Platos" style="padding-top:2vh">
+        <div class="pizarra">
+          <div class="plato" data-reveal>
+            <span class="nombre">Margherita</span>
+            <span class="precio">180</span>
+            <p class="desc">San Marzano DOP, fior di latte, albahaca del huerto, aceite de oliva.</p>
+          </div>
+          <div class="plato" data-reveal>
+            <span class="nombre">Marinara</span>
+            <span class="precio">160</span>
+            <p class="desc">Tomate, ajo laminado, orégano seco. La prueba de fuego de toda masa.</p>
+          </div>
+          <div class="plato" data-reveal>
+            <span class="nombre">Fermento</span>
+            <span class="precio">220</span>
+            <p class="desc">Burrata entera al centro, tomate confitado, albahaca frita. La de la casa.</p>
+          </div>
+          <div class="plato" data-reveal>
+            <span class="nombre">La del día</span>
+            <span class="precio ital">pregunte</span>
+            <p class="desc">Lo que el mercado dictó esta mañana. Se anuncia en la pizarra, se acaba temprano.</p>
+          </div>
+        </div>
+        <p class="nota-masas" data-reveal>«Solo 80 masas por noche. Cuando se acaban, se acaban.»</p>
+
+        <div class="fotos-lado">
+          <div class="marco plano" data-lag="0.15" data-reveal>
+            <img src="https://images.pexels.com/photos/27647972/pexels-photo-27647972.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Cornicione leopardo de margherita napolitana" loading="lazy" referrerpolicy="no-referrer">
+          </div>
+          <div class="marco plano" data-lag="0.3" data-reveal>
+            <img src="https://images.pexels.com/photos/31708263/pexels-photo-31708263.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Margherita cenital con charring leopardo" loading="lazy" referrerpolicy="no-referrer">
+          </div>
+          <div class="marco plano" data-lag="0.45" data-reveal>
+            <img src="https://images.pexels.com/photos/27662742/pexels-photo-27662742.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Mozzarella y tomate sobre pizarra oscura" loading="lazy" referrerpolicy="no-referrer">
+          </div>
+        </div>
+
+        <div style="text-align:center;margin-top:8vh">
+          <a class="cta" href="#reservar" data-reveal>RESERVAR MESA</a>
+        </div>
+      </section>
+
+      <footer id="pie">
+        <p class="datos">
+          MAR – DOM · 18:00 – 23:00 · SOLO 80 MASAS POR NOCHE<br>
+          CALLE DEL HORNO 48 · COLONIA AMERICANA · GDL · RESERVAS 33 4848 0090
+        </p>
+        <p class="cred">FERMENTO · FOTOGRAFÍA Y VIDEO CORTESÍA DE PEXELS</p>
+      </footer>
+
+    </main>
+
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/ScrollSmoother.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@barba/core@2.10.3/dist/barba.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@barba/prefetch@2.2.0/dist/barba-prefetch.umd.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
